@@ -1,0 +1,20 @@
+.divWidth {
+    text-align: justify;
+  }
+
+  .divWidth:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+  .main {
+      text-align: center
+  }
+  .sub {
+      text-align: center
+  }
+  img {
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+}
